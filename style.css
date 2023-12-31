@@ -7,7 +7,7 @@
 
 html,
 body {
-  background-color: #fdbf00;
+  background-color: #64af6c;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@ body {
 
 .card {
   width: 640px;
-  height: 400px;
+  height: 500px;
   position: relative;
   margin: auto;
   left: 0;
@@ -36,7 +36,6 @@ body {
 .card:hover .outside {
   transform: rotateY(-130deg);
 }
-
 .outside,
 .inside {
   height: 100%;
@@ -46,7 +45,7 @@ body {
 }
 
 .inside {
-  background: linear-gradient(to right, #e7e7e7, #ffffff 30%);
+  background: linear-gradient(to right, #f5f7f1, #ffffff 30%);
   line-height: 3;
   padding: 0 20px;
   text-align: center;
@@ -103,7 +102,7 @@ body {
       #fedbab 50px,
       #fedbab 60px,
       transparent 60px),
-    radial-gradient(circle at 30px 5px, #994c10 30px, #fcbf29 31px);
+    radial-gradient(circle at 30px 5px, #994c10 30px, #291c06 31px);
   border-radius: 10px 10px 0 0;
   position: relative;
   margin: auto;
@@ -125,7 +124,7 @@ body {
   background: repeating-linear-gradient(45deg,
       #fd3018 0,
       #fd3018 5px,
-      #ffa89e 5px,
+      #f8a9a9 5px,
       #ffa89e 10px);
   position: absolute;
   margin: auto;
@@ -139,7 +138,7 @@ body {
   position: absolute;
   height: 16px;
   width: 16px;
-  background-color: #ffa500;
+  background-color: #ffc107;
   border-radius: 0 50% 50% 50%;
   bottom: 48px;
   transform: rotate(45deg);
@@ -152,7 +151,7 @@ body {
   margin-top: 30px;
   text-align: center;
   letter-spacing: 6px;
-  color: #000046;
+  color: #ff7904;
 }
 
 .inside h1 {
