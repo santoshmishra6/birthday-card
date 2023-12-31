@@ -5,14 +5,19 @@
   font-family: "Poppins", sans-serif;
 }
 
+html,
 body {
   background-color: #fdbf00;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   width: 640px;
   height: 400px;
-  position: absolute;
+  position: relative;
   margin: auto;
   left: 0;
   right: 0;
@@ -21,6 +26,7 @@ body {
   -webkit-perspective: 1200px;
   perspective: 1200px;
   transition: 1s;
+  margin-right: 115px;
 }
 
 .card:hover {
